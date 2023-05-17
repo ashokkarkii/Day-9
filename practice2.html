@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+
+    <style>
+
+        .navbar{
+            background-color:black;
+        }
+
+        .navbar a{
+            margin:1px;
+            text-decoration: none;
+            color: white;
+            
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            padding-left:20px;
+            padding: 10px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .test a{
+            float: right;
+            /* padding-left:800px ; */
+        }
+        
+        .navbar li:hover
+        {
+            color: blue;
+            background-color: lightseagreen;
+        }
+
+        .container{
+            /* border: 2px solid red; */
+            margin: 46px;
+            width: 600px;
+            height:400px;
+            text-align: center;
+            position:relative;
+            left: 300px;
+            background-image: url('akk.jpg');
+        }
+ 
+        #abc{
+            background-color:rgb(0, 0, 0) ;
+            color: white;
+            margin: -20px 0px;
+        }
+
+        .name{
+            padding:10px;
+        }
+        .name{
+            margin:1px;
+            padding:10px;
+            text-align: center;
+        }
+        .firstname{
+            margin:1px;
+            
+            display: inline-block;
+            margin-left: -69px;
+            padding: 10px;
+        }
+
+        .lastname{
+            margin: 1px;
+            margin-left:-69px ;
+            padding: 10px;
+        }
+
+        .drop{
+            margin: 1px;
+            text-align: center;
+            padding:10px
+        }
+      
+        .container2{
+            /* background-color: #20b3e25e; */
+            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F1872837-abstract-dark-blue-geometric-polygonal-form-background&psig=AOvVaw3sVt8iVfRHztw7Ga20z-TG&ust=1684344341362000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCPjElOWt-v4CFQAAAAAdAAAAABAD');
+            background-repeat: no-repeat;
+
+        }
+        .back{
+            position: relative;
+            right: 42%;
+            bottom: -168px;
+        }
+
+        .aa{
+            position: relative;
+            right: -217px;
+            bottom: -151px;
+}
+
+
+         .test a{
+            position: relative;
+            float: right;
+            right: -800px;
+
+         }
+         body{
+            background-image: url('ak.webp');
+         }
+        
+        
+        
+        
+
+
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Register Year level</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+
+                <div class="test">
+                        <li><a href="#">Logout</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="abc">
+            <h3>Administrator(admin)</h3>
+        </div>
+        <div>
+        <form action="backend.php">
+
+            <div class="container2">
+
+            <div class="name">
+            Student#: <input type="text" name="name">
+            <button>Search</button>
+            </div>
+
+            <div class="firstname">
+                First Name:<input type="text" name="firstname">
+
+            </div>
+
+            <div class="lastname">
+                Last Name:<input type="text" name="lastname">
+            </div>
+
+            <div class="drop">
+                <input type="text" name="drop">
+            </div>
+
+            <div class="back">
+                <a href="#">Back</a>
+            </div>
+
+            <footer>
+                <button class="aa">Submit</button>
+                <button class="aa">Reset</button>
+            </footer>
+
+            </div>
+
+        </form>
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>

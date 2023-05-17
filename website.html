@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bree+Serif&family=Inter:wght@100&family=Lilita+One&family=Merriweather:ital,wght@1,300&family=Playball&family=Playfair+Display:ital,wght@0,400;1,400;1,500;1,800;1,900&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<style>
+        .header{
+            color: white;
+        }
+        .left img{
+            width: 40px;
+            display: block;
+            margin:0px auto;
+        }
+        .left div{
+            text-align: center;
+            line-height: 2.3em;
+        }
+
+
+        body{
+            margin:0px;
+            padding:0px;
+            background-image: url('akk.jpg');
+            font-family: 'Bree Serif', serif;
+        }
+        .left{
+            position: absolute;
+            left: 1px;
+            top: 20px;
+            /* border:2px solid red; */
+            display: inline-block;
+
+        }
+        .mid{
+            /* border:2px solid rgb(50, 189, 22); */
+            display: block;
+            width: 45%;
+            margin: 20px auto;
+            font-size: 25px;
+
+        }
+        .right{
+            position: absolute;
+            right: 1px;
+            top: 20px;
+            /* border:2px solid rgb(216, 251, 21); */
+            display:inline-block;  
+        }
+
+        .navbar{
+            list-style: none;
+        }
+        .navbar li{
+            text-decoration: none;
+            display:inline-block ;
+            font-size: 16px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 24px 10px;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+            color: rgb(255, 0, 0);
+
+        }
+        .btn{
+            color: white;
+            background-color: black;
+            margin: 0px 2px;
+            padding: 3px 7px;
+            border: 2px solid rgb(191, 228, 7);
+            border-radius:10px ;
+            font-size:12px;
+        }
+        
+        .btn:hover{
+            background-color: aqua;
+            color: red;
+        }
+        .container{
+            /* border: 2px solid red; */
+            background-color: cornflowerblue;
+            margin: 0px 10px;
+            width: 16%;
+            color: rgb(255, 255, 255);
+            border-radius: 63px;
+            display: inline-block;
+            margin: 0px auto;
+            position: absolute;
+            right: 200px;
+            top: 120px;
+            text-align: center;
+            padding: 25px;
+            height: 364px;
+
+        }
+        .test{
+            margin: 30px;
+            background-color: cornflowerblue;
+            color: cornflowerblue;
+
+  }
+
+        .container button{
+            border: cornflowerblue;
+            border-radius: 10px;
+            background-color: rgb(250, 250, 250);
+            color: cornflowerblue;
+            position: absolute;
+            right: 25px;
+            width: 172px;
+            margin: 14px;
+            height: 30px;
+ 
+}
+        #top{
+            font-size: 25px;
+        }      
+
+
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="left">
+          <img src="gym.jpg" alt="gymlogo">
+          <div>
+            Ashok's Fitness
+        </div>
+
+        </div>
+       
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" class="active">About us</a></li>
+                <li><a href="#" class="active">Fitness calculator</a></li>
+                <li><a href="#" class="active">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div id="top">SIGN UP</div>
+        <div class="test"><input type="text" name=name placeholder="Enter your name"></div>
+        <div class="test"><input type="text" name="age" placeholder="Enter your Age"></div>
+        <div class="test"><input type="text" name="gender" placeholder="Enter your Gender"></div>
+        <div class="test"><input type="text" name="locality" placeholder="Enter your locality"></div>
+        <button>Create Account</button>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
